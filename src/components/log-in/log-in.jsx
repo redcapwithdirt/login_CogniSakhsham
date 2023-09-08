@@ -61,7 +61,7 @@ const Login = () => {
 
                         {/* google sign in button */}
                         <div className='googlesignin'>
-                            <p className='another_signin'>or you can log in with</p>
+                            <p className='another_signin'>Sign in with</p>
 
                             {/* google icon  */}
                             <button className="google_button" type='button'><FontAwesomeIcon className='google' icon={faGoogle} color="#9FA2B4" /></button>

@@ -1,6 +1,6 @@
 .login-outer {
     display: flex;
-    background-color: #252733;
+    background-color: #076244;
     height: 100vh;
     overflow: hidden;
     padding: 0.2px 0px;
@@ -15,7 +15,7 @@
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
-        background-color: #DFE0EB;
+        background-color: #FFFFFF;
         border-radius: 8px;
 
         .logo {
@@ -105,7 +105,7 @@
                     height: 30px;
                     border: 1px solid #ccccd6;
                     border-radius: 5px;
-                    background-color: #DFE0EB;
+                    background-color: #FFFFFF;
                     padding: 0px 4px;
                 }
             }
@@ -144,7 +144,7 @@
                     height: 30px;
                     border: 1px solid #ccccd6;
                     border-radius: 5px;
-                    background-color: #DFE0EB;
+                    background-color: #FFFFFF;
                     padding: 0px 4px;
                 }
 
@@ -174,7 +174,7 @@
                     top: -8em;
                     text-align: center;
 
-                    background-color: #FF6100;
+                    background-color: #FFA500;
                     color: #FFFFFF;
                     border: none;
                     font-family: "Mulish";
@@ -209,10 +209,12 @@
                 .google_button {
                     position: relative;
                     width: 30px;
-                    border: none;
-                    background-color: #DFE0EB;
+                    height:30px;
+                    
+                    background-color: #FFFFFF;
                     top: -6em;
-
+                    border: 1px solid #ccccd6;
+                    border-radius: 5rem;
                     .google {
                         &:hover {
                             color: #DB4437;
@@ -229,7 +231,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                top: -2em;
+                top: -3em;
 
                 .sign-up-text {
                     letter-spacing: 0.3px;
@@ -242,8 +244,8 @@
                     position: relative;
                     border: none;
                     right: -1em;
-                    background-color: #DFE0EB;
-                    color: #FF6100;
+                    background-color: #FFFFFF;
+                    color: #FFA500;
 
                     &:hover{
                         color: black;
